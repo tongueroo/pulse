@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Takebackyourpower::Application.load_tasks
+Pulse::Application.load_tasks

@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Takebackyourpower::Application.config.secret_token = '8164be28df6ea1cb1048b722bb80db1a3e5a527b18196cbeda0b8ae6d231c951a757d9b60e8d8a597ff9e6ee231f401a1d601b71495e377fa5b0b80a0737bfca'
+Pulse::Application.config.secret_token = '06da71e971a123c112d81abad761b753f3ff4da4b1d60a6be902ce342da1ec5fc833f4df66ef81f7e8afd623674c9ace7a31c1de8b896e9190f3156538792949'
