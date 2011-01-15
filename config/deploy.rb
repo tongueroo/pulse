@@ -21,9 +21,9 @@ set :branch, ENV['BRANCH'] || 'master'
 
 task :production do
   set :rails_env, 'production'
-  role :db,  'usolo.loc', :primary => true
-  role :web, 'usolo.loc'
-  role :app, 'usolo.loc'
+  role :db,  'u1.local', :primary => true
+  role :web, 'u1.local'
+  role :app, 'u1.local'
 end
 
 namespace :deploy do
